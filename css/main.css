@@ -1,24 +1,42 @@
-.main > .column > .img1 {
-
+.main > .column > .bg {
+    height: 280px;
+    width: 280px;
+    float: right;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
-.main > .column > .img2 {
-  
-}
-
-.main > .column > .img3 {
- 
-}
-
-.main > .column > .img4 {
- 
+.main > .column > .bg > .number {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    background-color: white;
+    border: 3px solid;
 }
 
 .image {
-    width: 300px;
+    width: 150px;
 }
 
 .main > .column > .title {
+    margin-top: 300px;
     color: #e26454;
     text-transform: uppercase;
+    font-size: 30px;
+}
+
+.main > .column > .description {
+    color: #919191;
+    font-size: 20px;
+    line-height: 150%;
+    padding-left: 15px;
 }
