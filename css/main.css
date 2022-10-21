@@ -1,0 +1,24 @@
+.main > .column > .img1 {
+
+}
+
+.main > .column > .img2 {
+  
+}
+
+.main > .column > .img3 {
+ 
+}
+
+.main > .column > .img4 {
+ 
+}
+
+.image {
+    width: 300px;
+}
+
+.main > .column > .title {
+    color: #e26454;
+    text-transform: uppercase;
+}

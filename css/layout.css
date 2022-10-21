@@ -1,0 +1,16 @@
+body {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+.main {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.main > .column {
+    float: left;
+    width: 25%;
+}
